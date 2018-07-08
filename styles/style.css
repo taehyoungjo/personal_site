@@ -1,5 +1,5 @@
 * {
-  text-align: center;
+  text-align: left;
   margin: auto
 }
 
@@ -8,10 +8,11 @@ html, body {
 }
 
 h1 {
-  font-family: "Abyssinica SIL";
+  font-family: "Garuda";
   font-size: 64px;
   padding: 24px 15%;
   font-weight: bold;
+  line-height: 1;
 /*  text-decoration: underline red; */
   text-align: center;
   text-shadow: 4px 4px Black;
@@ -23,7 +24,7 @@ h1 {
 
 .intro h2 {
   text-align: left;
-  font-size: 36px;
+  font-size: 24px;
 }
 
 mark {
@@ -31,34 +32,47 @@ mark {
   background-color: Coral;
 }
 
+mark.title {
+  color: White;
+  background-color: Coral;
+}
+
+mark.subtitle {
+  color: Black;
+  background-color: Coral;
+}
+
 h2 {
-  font-family: "Liberation Serif";
+  font-family: "Garuda";
 /*  font-family: "FreeSans";  */
   font-size: 24px;
   padding: 24px 15%;
-  text-align: center;
+  font-weight: 700;
 }
 
 h3 {
-  font-family: "Abyssinica SIL";
+  font-family: "FreeSans";
   font-size: 16px;
   font-weight: 600;
-  text-decoration: underline Red;
-  padding: 12px 15%;
+  background-color: Coral;
+  padding: 12px;
 }
 
 p {
   font-size: 16px;
-  font-family: "Liberation Serif";
+  font-family: "Garuda";
 /*  font-family: "FreeSans"; */
   padding: 12px 15%;
 /*  text-align: left; */
+  font-weight: 700;
+  line-height: 1.5;
 }
 
 a {
-  font-family: "Liberation Serif";
+  font-family: "Garuda";
 /*  font-family: "FreeSans"; */
   font-size: 16px;
+  font-weight: 700;
   color: black;
 }
 
@@ -73,17 +87,18 @@ em {
 .button {
   padding: 14px 16px;
   font-family: "FreeSans";
-  background-color: Black;
+  background-color: "Coral";
   font-size: 16px;
-  color: White;
-  border: 2px White solid;
+  color: Black;
+  border: 2px Black solid;
   text-decoration: none;
+  margin: 0 15%;
 }
 
 .button:hover {
   background-color: white;
-  color: Red;
-  border: 2px red solid;
+/*  color: Black;
+  border: 2px Black solid; */
 }
 
 .topnav {
@@ -101,8 +116,8 @@ em {
 }
 
 .topnav a:hover {
-  background-color: #ddd;
-  color: Red;
+  background-color: Coral;
+  color: White;
 }
 
 .intro {
@@ -124,15 +139,15 @@ em {
 .banner {
   background-color: Coral;
   padding: 48px 0px;
-  color: White;
+  color: Black;
 }
 
 .banner2 a {
-  text-decoration: underline red;
+  text-decoration: underline Coral;
 }
 
 .banner2 a:hover {
-  background-color: coral;
+  background-color: Coral;
 }
 
 .banner2 {
@@ -142,5 +157,9 @@ em {
 
 .group_border {
   border: Black solid 4px;
-  margin: 0px 30%;
+  margin: 0px 30% 0px 30%;
+}
+
+.Korean {
+  font-family:
 }
