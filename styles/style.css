@@ -1,6 +1,11 @@
 * {
   text-align: left;
-  margin: auto
+  margin: auto;
+}
+
+@font-face {
+  font-family: "Share Tech Mono";
+  src: url("../fonts/ShareTechMono-Regular.ttf");
 }
 
 html, body {
@@ -8,7 +13,7 @@ html, body {
 }
 
 h1 {
-  font-family: "Garuda";
+  font-family: "Share Tech Mono";
   font-size: 64px;
   padding: 24px 15%;
   font-weight: bold;
@@ -45,7 +50,7 @@ mark.subtitle {
 }
 
 h2 {
-  font-family: "Garuda";
+  font-family: "Share Tech Mono";
 /*  font-family: "FreeSans";  */
   font-size: 24px;
   padding: 24px 15%;
@@ -54,7 +59,7 @@ h2 {
 }
 
 h3 {
-  font-family: "FreeSans";
+  font-family: "Share Tech Mono";
   font-size: 16px;
   font-weight: 600;
   background-color: Coral;
@@ -63,19 +68,19 @@ h3 {
 
 p {
   font-size: 16px;
-  font-family: "Garuda";
+  font-family: "Share Tech Mono";
 /*  font-family: "FreeSans"; */
   padding: 12px 0%;
 /*  text-align: left; */
-  font-weight: 700;
+  font-weight: 400;
   line-height: 1.5;
 }
 
 a {
-  font-family: "Garuda";
+  font-family: "Share Tech Mono";
 /*  font-family: "FreeSans"; */
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 400;
   color: black;
 }
 
@@ -89,7 +94,7 @@ em {
 
 .button {
   padding: 14px 16px;
-  font-family: "FreeSans";
+  font-family: "Share Tech Mono";
   background-color: "Coral";
   font-size: 16px;
   color: Black;
@@ -108,6 +113,7 @@ em {
   background-color: white;
   position: fixed;
   width: 100%;
+  z-index: 10;
 }
 
 .topnav a {
@@ -130,7 +136,7 @@ em {
   background-image: url("../images/Intro.png");
   background-repeat: no-repeat;
   background-size: 571.5px 693px;
-  background-position: 85%;
+  background-position: 85% bottom;
 }
 
 .intro_text {
@@ -143,7 +149,7 @@ em {
   background-color: Coral;
   color: Black;
   padding: 48px 0;
-  border-top: black solid 4px;
+/*  border-top: black solid 4px; */
 }
 
 .banner2 a {
@@ -157,7 +163,7 @@ em {
 .banner2 {
   background-color: White;
   padding: 48px 0;
-  border-top: black solid 4px;
+/*  border-top: black solid 4px; */
 }
 
 .group_border {
