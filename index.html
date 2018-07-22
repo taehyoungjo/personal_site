@@ -12,6 +12,7 @@
   <script>
     window.sr = ScrollReveal();
   </script>
+  <script src="./scripts/typed.js"></script>
 </head>
 
 <body>
@@ -25,12 +26,15 @@
     <a href="#Lets_Talk">Let's Talk!</a>
   </div>
 
-  <div class="animated fadeInLeft intro">
+  <div class="animated fadeIn intro">
     <div class="intro_text">
       <br><br><br><br><br><br><br><br><br><br>
       <br><br><br><br><br><br><br><br><br><br>
       <br><br><br><br><br>
-      <h1><mark class="intro_title">Hey There!</mark></h1>
+      <div style="margin-bottom: 24px;">
+        <h1><mark class="intro_title">Making</mark></h1>
+        <h1><mark class="intro_title" id="typed"></mark></h1>
+      </div>
       <h2><mark class="subtitle">I'm Tae Hyoung Jo</mark></h2>
     </div>
   </div>
@@ -189,6 +193,22 @@
   <script>
     sr.reveal('.banner');
     sr.reveal('.banner2');
+
+    function type() {
+      new Typed("#typed", {
+        strings: ["Jscript Work",
+                  "HTML/CSS Work",
+                  "Excel Work",
+                  "Bullshit Work",],
+        typeSpeed: 80,
+        startDelay: 100,
+        backSpeed: 40,
+        backDelay: 1000,
+        // loop: true,
+        // loopCount: infinity,
+      })
+    }
+    type();
 
   </script>
 </body>
